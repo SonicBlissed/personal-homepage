@@ -1,0 +1,42 @@
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+    /* text-decoration: underline; */
+}
+
+.inner-box {
+    height: 70vh;
+    width: 60vw;
+    display: flex;
+    justify-content: baseline;
+    align-items:center;
+    /* align-items: baseline; */
+    /* background-color: burlywood; */
+    /* color: burlywood; */
+    justify-content: space-evenly;    
+    flex-flow: row wrap;
+    /* border: solid gold 2px; */
+}
+h1{
+    color: gold;
+    text-decoration: underline;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: center;
+    width: 90vh;
+}
+.bottom-box button {
+    height: 10vh;
+}
+
+.button {
+    height: 20%;
+    width: 20%;
+}
+

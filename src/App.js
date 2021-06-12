@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "@material-ui/core/Button";
+import Todo from './To-do/to-do';
 
 function App() {
   //onlicks
@@ -42,7 +43,7 @@ function App() {
     <div className="App">
       <div className='middle-box'>
         <div className='middle-middle-box'>
-          <h2 className='to-do-title'>To-Do List</h2>
+          <Todo/>
         </div>
       </div>
       <div className="shortcut-container">
