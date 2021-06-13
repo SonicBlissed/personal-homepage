@@ -30,6 +30,7 @@ h1{
     display: flex;
     justify-content: center;
     width: 90vh;
+    justify-content: space-evenly;
 }
 .bottom-box button {
     height: 10vh;
@@ -40,3 +41,15 @@ h1{
     width: 20%;
 }
 
+
+.edit {
+    display: none;
+}
+
+.editting {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid gold 2px;
+}
