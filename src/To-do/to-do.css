@@ -9,7 +9,7 @@
 }
 
 .inner-box {
-    height: 70vh;
+    height: 60vh;
     width: 60vw;
     display: flex;
     justify-content: baseline;
@@ -51,5 +51,21 @@ h1{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    border: solid gold 2px;
+}
+
+.add {
+    display: none;
+}
+
+.adding {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttonDelete {
+    display: none;
+    height: 0px;
+    width: 0px;
 }
